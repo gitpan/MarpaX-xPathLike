@@ -14,7 +14,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw();
 
-our $VERSION = '0.1';
+our $VERSION = '0.101';
 
 my $grammar = Marpa::R2::Scanless::G->new({
     #default_action => '::first',
@@ -1735,6 +1735,7 @@ sub getvalue{
 }
 
 1;
+
 __END__
 
 
@@ -1744,7 +1745,7 @@ Data::xPathLike - a xPath like processor for perl data-structures (hashes and ar
 
 =head1 VERSION
 
-Version 0.1
+Version 0.101
 
 =head1 Why we need another one
 
@@ -2086,7 +2087,7 @@ The curly and square brackets could also be used with axis and wildcard *. Examp
     //*/parent::[b]
     //a//parent::{*}
     //*[self::{*} = 3 or self::[*] > 10]
-    /1/[*][4]/child::[*][1]/{Σ}/following-sibling::*[last()]
+    /1/[*][4]/child::[*][1]/{a}/following-sibling::*[last()]
 
 If a hash key is just a * the path expression is also posible using instead curly 
 brackets, quotes (double or single)
