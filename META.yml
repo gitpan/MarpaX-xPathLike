@@ -12,12 +12,13 @@ license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Data-xPathLike
+name: MarpaX-xPathLike
 no_index:
   directory:
     - t
     - inc
 requires:
   Marpa::R2: 0
+  Scalar::Util: 0
   perl: 5.006
-version: 0.101
+version: 0.2

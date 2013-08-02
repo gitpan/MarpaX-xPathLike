@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Data-xPathLike",
+   "name" : "MarpaX-xPathLike",
    "no_index" : {
       "directory" : [
          "t",
@@ -33,10 +33,11 @@
       "runtime" : {
          "requires" : {
             "Marpa::R2" : "0",
+            "Scalar::Util" : "0",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.101"
+   "version" : "0.2"
 }

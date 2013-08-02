@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'Data::xPathLike' ) || print "Bail out!\n";
+    use_ok( 'MarpaX::xPathLike' ) || print "Bail out!\n";
 }
 
-diag( "Testing Data::xPathLike $Data::xPathLike::VERSION, Perl $], $^X" );
+diag( "Testing MarpaX::xPathLike $MarpaX::xPathLike::VERSION, Perl $], $^X" );
