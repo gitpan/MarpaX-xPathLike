@@ -24,4 +24,4 @@ requires:
   Scalar::Util: 0
   Test::Deep: 0
   perl: 5.006
-version: 0.202
+version: 0.203
